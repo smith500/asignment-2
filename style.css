@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+/* header sec start */
+header {
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(81, 6, 255);
+}
+ul {
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+  margin-left: 50px;
+  font-size: 1.3rem;
+  color: white;
+  margin-top: 50px;
+}
+.nav ul {
+  margin-left: 90px;
+}
+.nav {
+  display: flex;
+}
+.icon-log {
+  margin-top: 40px;
+  margin-left: 250px;
+  padding: 10px;
+
+  background-color: rgb(252, 18, 57);
+}
+.icon-log {
+  font-size: 1.3rem;
+  color: white;
+}
+.icon-log a {
+  text-decoration: none;
+  color: white;
+  padding-left: 5px;
+}
+.icon {
+  font-size: 22px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-side img {
+  width: 80%;
+  height: 460px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.left-side p {
+  width: 500px;
+  margin-left: 130px;
+  font-size: 4rem;
+  color: white;
+}
+.watch a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+}
+.watch {
+  background-color: rgb(252, 18, 57);
+  display: inline-block;
+  margin-left: 130px;
+  padding: 10px;
+}
+.watch i {
+  color: white;
+  padding-left: 5px;
+}
+/* header sec end */
+
+/* main sec start */
+.players {
+  background-color: rgba(255, 255, 255, 0.678);
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.single-player img {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  margin: 20px;
+}
+
+.single-player {
+  width: 320px;
+  height: 400px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.single-player h1 {
+  margin-left: 18px;
+}
+.single-player p {
+  margin-left: 18px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.829);
+}
+.players {
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: repeat(3, 4fr);
+}
+/* main sec end */
+.main-sec {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 300px;
+}
+.sec-2 img {
+  width: 80%;
+  height: 450px;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+.sec-1 {
+  width: 30%;
+  height: 450px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.sec-1 h1 {
+  font-size: 45px;
+}
+.sec-1 p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.63);
+  padding-bottom: 20px;
+}
+.sec-1 a {
+  text-decoration: none;
+  color: white;
+}
+.watch-sec {
+  background-color: rgb(252, 18, 57);
+  display: inline-block;
+
+  padding: 10px;
+}
+.watch-sec i {
+  color: white;
+  padding-left: 10px;
+}
+/* main sec end */
+
+/* footer sec start */
+footer {
+  margin-bottom: 50px;
+}
+
+footer img {
+  width: 30%;
+  height: 100px;
+  margin-left: 32%;
+}
+.ftr-icon {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.ftr-icon i {
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.281);
+  border-radius: 50%;
+}
+.ftr-icon i:hover {
+  background-color: rgba(0, 0, 0, 0.493);
+}
+footer p {
+  text-align: center;
+}
+/* footer sec end */
